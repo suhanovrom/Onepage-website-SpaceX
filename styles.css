@@ -1,0 +1,255 @@
+
+header{
+    margin: 0 auto;
+    margin-top: 53px;
+    display: flex;
+    max-width: 1231px;
+}
+.nav1{
+    width: 262px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    margin-right: auto;
+}
+nav:last-child a{
+    color: #808080;
+}
+ header > nav:last-child{
+    display: flex;
+    justify-content: space-between;
+    width: 137px;
+    margin-left: auto;
+    float: right;
+    color: #A52424;
+    align-self: center;
+}
+body{
+    background-color: black;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+h3{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section:first-of-type{
+    display: flex;
+    justify-content: center;
+    max-width: 382px;
+    flex-wrap: wrap;
+}
+section h1{
+    color: white;
+    margin-top: 120px;
+    margin-bottom: 26px;
+    text-align: center;
+    font-size: 64px;
+}
+section:first-of-type p{
+    color: white;
+    text-align: center;
+    max-width: 268px;
+    font-size: 16px;
+}
+h3{
+    font-size: 24px;
+    color: white;
+    max-width: 177px;
+    margin-bottom: 45px;
+}
+
+.ul{
+    margin-bottom: 218px;
+    display: flex;
+}
+.ul ul:first-child{
+    width: 288px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+span {
+    color: #B2B0B2;
+}
+li:not(li:last-child){
+    padding-bottom: 11px;
+}
+li{
+
+    font-size: 18px;
+    color: white;
+    list-style: none;
+}
+main > img{
+    width: 100%;
+}
+.rocket{
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 183px;
+}
+.rocket > div{
+    margin-top: 492px;
+}
+.rocket > div div:last-child{
+    max-width: 490px;
+}
+.rocket p{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 28.75px;
+    font-size: 16px;
+    color: white;
+}
+footer{
+    margin: 0 auto;
+    max-width: 544px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+}
+footer img{
+    margin-bottom: 43px;
+}
+footer a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+footer nav{
+    display: flex;
+    width: 544px;
+    justify-content: space-between;
+}
+footer p{
+    margin: 30px 0;
+    font-size: 18px;
+    color:#808080;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+button{
+    transition: 0.3s;
+    padding: 20px 86px;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+@media (max-width:1164px) {
+    .rocket{
+        justify-content: center;
+    }
+    .rocket img {
+        width: 100%;
+    }
+}
+
+@media (max-width:520px){
+    .rocket > div{
+        margin-top: 100px;
+    }
+    footer a{
+        font-size: 16px;
+    }
+    footer p{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header img{
+        width: 51%;
+        margin: 0 auto 20px auto;
+    }
+    .rocket p{
+        margin: 0 auto;
+        text-align: center;
+        max-width: 300px;
+    }
+    h3{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .ul{
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    li{
+        font-size: 16px;
+
+    }
+    .ul ul:first-child{
+        width: 200px;
+    }
+
+}
+
+@media (max-width:420px){
+    section h1{
+        font-size: 50px;
+    }
+    footer a:not(a:last-of-type){
+        margin-right: 10px;
+    }
+    footer nav{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    header nav:last-child{
+        margin: 0 auto;
+    }
+    header{
+        justify-content: center;
+    }
+    li{
+        font-size: 14px;
+
+    }
+    .ul ul:first-child{
+        width: 140px;
+    }
+
+
+}
+@media (max-width:320px) {
+    li{
+        font-size: 13px;
+    }
+    .ul ul:first-child{
+        width: 140px;
+    }
+
+    
+}
